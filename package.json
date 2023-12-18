@@ -1,0 +1,18 @@
+{
+  "name": "xss-server",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Server to capture xss data",
+  "main": "main.js",
+  "scripts": {
+    "server": "node main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "uuid": "^9.0.1"
+  }
+}
